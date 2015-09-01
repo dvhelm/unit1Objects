@@ -1,8 +1,12 @@
-
+import java.util.Random;
 
 public class Die_Simulator
 {
    public static void main(String[] args)
    {
-       Int die = generator.nextInt(6);
-       println(die);
+       Random die = new Random();
+       int random = die.nextInt(6);
+       random+=1;
+       System.out.println("The number rolled is " + random);
+    }
+}
