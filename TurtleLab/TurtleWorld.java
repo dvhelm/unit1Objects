@@ -17,7 +17,9 @@ public class TurtleWorld
         turtle.forward();
         turtle.turn(305);
         turtle.forward(15);
-        turtle.turn
+        turtle.turn(180);
+        turtle.forward(15);
+        turtle.turn(225);;
     }
 }
         
